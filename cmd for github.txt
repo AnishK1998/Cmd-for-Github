@@ -1,0 +1,258 @@
+
+1>git init
+2>git add .
+3>git config --global user.email "killemsmartly1998@gmail.com"            //3 and 4 are only for once
+4>git config --global user.name "Anish kumar singh"
+5>git commit -m "first"
+6>git remote add origin git@github.com:killemsmartly/CurrencyConverter.git
+7>git branch -M main
+8>git push -u origin main
+
+git clone link
+git add .
+git status
+git commit -m "string"
+git push
+git checkout spell-checker-v2
+
+
+
+
+
+
+
+
+
+
+##########################
+Microsoft Windows [Version 10.0.19042.1165]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\source>cd Weather-App-anish
+
+D:\source\Weather-App-anish>git clone https://github.com/AnishK1998/weather-app1.git
+Cloning into 'weather-app1'...
+warning: You appear to have cloned an empty repository.
+
+D:\source\Weather-App-anish>git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+D:\source\Weather-App-anish>git init
+Initialized empty Git repository in D:/source/Weather-App-anish/.git/
+
+D:\source\Weather-App-anish>git add .
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in script.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in style.css.
+The file will have its original line endings in your working directory
+error: 'weather-app1/' does not have a commit checked out
+fatal: adding files failed
+
+D:\source\Weather-App-anish>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        script.js
+        style.css
+        weather-app1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\source\Weather-App-anish>git init
+Initialized empty Git repository in D:/source/Weather-App-anish/.git/
+
+D:\source\Weather-App-anish>git add .
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in script.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in style.css.
+The file will have its original line endings in your working directory
+
+D:\source\Weather-App-anish>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   script.js
+        new file:   style.css
+
+
+D:\source\Weather-App-anish>git commit -m "weather app"
+[master (root-commit) fa2686f] weather app
+ 3 files changed, 118 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 script.js
+ create mode 100644 style.css
+
+D:\source\Weather-App-anish>git remote add origin https://github.com/AnishK1998/weather-app.git
+
+D:\source\Weather-App-anish>git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.78 KiB | 909.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/AnishK1998/weather-app/pull/new/master
+remote:
+To https://github.com/AnishK1998/weather-app.git
+ * [new branch]      master -> master
+
+D:\source\Weather-App-anish>
+
+PS D:\source\Nutrify-App-main> git init
+Initialized empty Git repository in D:/source/Nutrify-App-main/.git/
+PS D:\source\Nutrify-App-main> git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in controllers/controller.js.    
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in db/models/meal.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in db/models/user.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in public/css/app.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routers/home.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routers/index.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in routers/user.js.
+The file will have its original line endings in your working directory
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in views/home.ejs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in views/placeorder.ejs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in views/signin.ejs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in views/signup.ejs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in views/update.ejs.
+The file will have its original line endings in your working directory
+PS D:\source\Nutrify-App-main> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   controllers/controller.js
+        new file:   db/models/meal.js
+        new file:   db/models/user.js
+        new file:   index.js
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   public/css/app.css
+        new file:   public/images/addmeal.jpg
+        new file:   public/images/home.jpg
+        new file:   public/images/signup.jpg
+        new file:   routers/home.js
+        new file:   routers/index.js
+        new file:   routers/user.js
+        new file:   views/final.ejs
+        new file:   views/home.ejs
+        new file:   views/placeorder.ejs
+        new file:   views/signin.ejs
+        new file:   views/signup.ejs
+        new file:   views/update.ejs
+
+PS D:\source\Nutrify-App-main> git commit -m "nodejs nutrify proj"
+[master (root-commit) d7c63df] nodejs nutrify proj
+ 21 files changed, 3150 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 controllers/controller.js
+ create mode 100644 db/models/meal.js
+ create mode 100644 db/models/user.js
+ create mode 100644 index.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 public/css/app.css
+ create mode 100644 public/images/addmeal.jpg
+ create mode 100644 public/images/signin.jpg
+ create mode 100644 public/images/signup.jpg
+ create mode 100644 routers/home.js
+ create mode 100644 routers/index.js
+ create mode 100644 views/final.ejs
+ create mode 100644 views/signup.ejs
+ create mode 100644 views/update.ejs
+PS D:\source\Nutrify-App-main> git git remote add origin https://github.com/AnishK1998/nutrify-nodejs-app.git
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+PS D:\source\Nutrify-App-main> git branch -M main
+PS D:\source\Nutrify-App-main> git push -u origin main^C
+PS D:\source\Nutrify-App-main> git remote add origin https://github.com/AnishK1998/nutrify-nodejs-app.git
+PS D:\source\Nutrify-App-main> git branch -M main
+PS D:\source\Nutrify-App-main> git push -u origin main
+Enumerating objects: 31, done.
+Counting objects: 100% (31/31), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (27/27), done.
+Writing objects: 100% (31/31), 4.70 MiB | 4.72 MiB/s, done.
+Total 31 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/AnishK1998/nutrify-nodejs-app.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+PS D:\source\Nutrify-App-main>
+
+
+########################
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS D:\source\E-Commerce-main> git init
+Initialized empty Git repository in D:/source/E-Commerce-main/.git/
+PS D:\source\E-Commerce-main> git add .
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in index.js.
+PS D:\source\E-Commerce-main> git commit -m "anish-E-Commerce"
+[master (root-commit) ee7b628] anish-E-Commerce
+ 10 files changed, 274 insertions(+)
+ create mode 100644 cart Images/chilli.jpg
+ create mode 100644 cart Images/cucumber.jpg
+ create mode 100644 cart Images/mango.jpg
+ create mode 100644 cart Images/pineapple.jpg
+ create mode 100644 cart Images/strawberry.jfif
+ create mode 100644 cart Images/strawbery.jpg
+ create mode 100644 cart Images/tomato.jpg
+ create mode 100644 index.html
+ create mode 100644 index.js
+ create mode 100644 style.css
+PS D:\source\E-Commerce-main> git remote add origin https://github.com/AnishK1998/anish-E-Commerce.git
+PS D:\source\E-Commerce-main> git branch -M main
+PS D:\source\E-Commerce-main> git push -u origin main
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 907.00 KiB | 17.11 MiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/AnishK1998/anish-E-Commerce.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+PS D:\source\E-Commerce-main> 
